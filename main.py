@@ -82,7 +82,7 @@ def valider_action():
         pdf.main()
 
         # Sauvegarder le PDF
-        pdf.output("Tablature/tablature.pdf")
+        pdf.output("tablature.pdf")
         print("PDF Crée")
         text_affichage.set("PDF créé avec succès")
         label_message.config(fg="green")
