@@ -14,13 +14,6 @@ root.title("Sélecteur de fichier audio")
 root.geometry("400x250")
 root.configure(bg="#e0dfd5")  # Couleur de fond en accord avec le logo
 
-# Charger et convertir l'image en format compatible
-image_path = "Logo/Logo.jpg"
-img = Image.open(image_path)
-img = img.resize((64, 64), Image.LANCZOS)  # Redimensionnement si nécessaire
-logo = ImageTk.PhotoImage(img)
-root.iconphoto(False, logo)
-
 fichier_selectionne = ""
 text_affichage = tk.StringVar()
 text_affichage.set("")
