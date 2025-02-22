@@ -1,0 +1,16 @@
+Si une note est joué apres une note, il me faut environ 0.06 seconde pour etre sur d'avoir la bonne frequence.
+Il faut que je supprime de ses frequence les frequence de l'autre note a part si la frequence a reaugmenter.
+
+
+
+Si il y a des nouvelle valeur alors 
+	Si l'amplitude de la premiere frequence augmente de minimum 2 amplitude, on renote cette valeur
+	Sinon on avance de 0.06 seconde, on enregistre ses note et bloque les autre tant que la valeur max d'avant n'a pas disparu ou reaugmenter de beaucoup
+	J'ai toujours un probleme qui est que si l'on a une raisonnance avec une frequence double casiment de celle que l'on a a un autre endroit dans cette note mais avec une amplitude plus huate, la vrai valeur est celle qui est la plus basse mais c'est compliquer a prouver. Ou alors si la note est au dessus de 140 alors, on cherche si il n'y a pas une frequence de moitié de elle ou casiment plus haut et l'amplitude casiment doublé aussi
+
+
+
+Si j'ai le temps, essayer de normaliser toute les frequence et donée de facon a ce que toute les valeur donnée soit toujours valide quelque soit l'zamplitude des donnée enregistrée.
+
+
+Peut être voir pour mettre une note seulement si son patern de note est répéter au moin 4 fois
